@@ -1,0 +1,23 @@
+/* ------------------------------------
+   #LAYOUT
+   ------------------------------------*/
+ 
+/**
+ * 
+ *
+ *
+ */
+
+
+.wrapper,
+article {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+
+    @include media-query(palm-and-up) {
+        max-width: $max-width;
+        padding: 30px 50px;
+    }
+}

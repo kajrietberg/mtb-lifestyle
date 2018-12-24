@@ -1,0 +1,60 @@
+/* ------------------------------------
+   #SETTINGS
+   ------------------------------------*/
+ 
+/**
+ * 
+ *
+ *
+ */
+
+$font-family-base: Lato, Helvetica Neue, Helvetica, Helvetica, Arial, sans-serif;
+$font-family-heading: Karla, sans-serif;
+
+$font-size-base: 1.1rem;
+$font-size-10: 0.75rem;
+$font-size-20: 0.875rem;
+$font-size-30: 1rem;
+$font-size-40: 1.125rem;
+$font-size-50: 1.313rem;
+
+// Adjust the website's maximum width. Will be converted to em's in the grid mixin.
+$max-width: 1440px;
+
+// Use the spacing variable on margins and paddings
+$spacing: 1.25rem;
+
+// Adjust the border-radius
+$border-radius-primary: 0.15rem;
+$border-radius-secondary: 0.125rem;
+
+// Media queries
+$breakpoints: (
+        "mobile"            "screen and (max-width: 480px)",
+        "palm"              "screen and (max-width: 1024px)",
+        "palm-and-up"       "screen and (min-width: 480px)",
+        "palm-with-mobile"  "screen and (min-width: 481px) and (max-width: 769px)",
+        "lap"               "screen and (min-width: 1023px) and (max-width: 1280px)",
+        "lap-and-up"        "screen and (min-width: 1023px)",
+        "portable"          "screen and (max-width: 1280px)",
+        "desk"              "screen and (min-width: 1281px)",
+        "retina"            "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)"
+);
+
+
+// Colors
+// use color: lighten($color-brand, 20%), color: darken($color-brand, 20%) or color: rgba($color-brand, 0.5) to adjust colors
+$color-brand: #3498db;
+
+// Color basics
+$black: #0e1110;
+$gray: #ced7d3;
+$white: #fff;
+
+$link--color: #F58DB6;
+$link--color-hover: #FFC038;
+
+// Z-index plan
+$z-index-10: 10;
+$z-index-20: 20;
+$z-index-30: 30;

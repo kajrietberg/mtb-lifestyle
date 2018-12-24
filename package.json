@@ -1,0 +1,14 @@
+{
+  "name": "mtb-lifestyle",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
+  }
+}
